@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* UTILITIES ZONE*/
+
+.d-flex{
+    display: flex;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.row{
+    width: 100%;
+    margin: 0 8rem;
+}
+
+.gap{
+    gap: 0.5rem;
+}
+
+
+
+/* END UTILITIES ZONE*/
+
+
+/* VIEW SETTING ZONE*/
+
+.buttons{
+    padding: 0.5rem;
+    background-color: grey;
+    border-radius: 10%;
+    margin-left: 0.5rem;
+
+}
+
+.view-settings i{
+    color: white;
+}
+
+/* END VIEW SETTING ZONE*/
+
+/* USERS ZONE */
+main{
+    height: calc(80vh);
+}
+
+.user-zone{
+    width:  90vw;
+    margin: 1rem 0;
+    height: 100%;
+}
+
+.user-card{
+    margin-top: 3rem;
+    width: 250px;
+    height: 110px;
+}
+
+.username{
+    color: white;
+    background-color: #50606e;
+    border: 1px solid grey;
+    padding: 0.3rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.user-card img{
+    width: 100%;
+}
+/* END USERS ZONE*/
