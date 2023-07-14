@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="debug">
 
     <header>
           <!--black bar with view selection options-->
@@ -24,9 +24,8 @@
     
     
     
-    <main>
+    <main class="user-zone">
         <!-- connected users zone-->
-        <div class="user-zone">
             <div class="row d-flex gap">
                 <div class="user-card">
                     <img src="./img/profilepicture.jpg" alt="">
@@ -247,9 +246,25 @@
                     </span>
                 </div>
             </div>
-        </div>
+        
     </main>
-
+    
+    <footer class="setting d-flex a-center j-center gap">
+       <div class="d-flex a-center j-center gap">
+            <div class="d-flex flex-col">
+                <i class="fas fa-microphone-alt fa-2x"></i>
+                <span>Mute</span>
+            </div>
+            <i class="fas fa-chevron-up fa-xs fa-fw"></i>
+        </div>
+        <div class="d-flex a-center j-center ">
+            <div class="d-flex flex-col">
+                <i class="fa-solid fa-video fa-2x"></i>
+                <span>Stop Video</span>
+            </div>
+            <i class="fas fa-chevron-up fa-xs fa-fw"></i>
+        </div>
+    </footer>
     
 </body>
 </html>
