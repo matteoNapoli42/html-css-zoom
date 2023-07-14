@@ -5,7 +5,7 @@
 }
 
 body{
-    
+    background-color: black;
 }
 
 /* DEBUG ZONE*/
@@ -107,10 +107,19 @@ main{
 footer{
     margin-top: 1.5rem;
     height: 10vh;
+    background-color: #50606e;
 }
 
 .setting{
     gap: 1.5rem;
+    color: white;
 }
-
+#audio-video-opt{
+    width: 30%;
+}
+#meeting-btn{
+    color: red;
+    height: 10vh;
+    border: 1px solid yellow;
+}
 /* END FOOTER ZONE*/
